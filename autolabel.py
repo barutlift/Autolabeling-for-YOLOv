@@ -2,7 +2,7 @@ from ultralytics import YOLO
 import os
 import cv2
 
-model = YOLO('best.pt') #model
+model = YOLO('model.pt') #model
 
 image_folder = 'images'
 
