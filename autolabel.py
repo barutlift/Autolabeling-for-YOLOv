@@ -2,9 +2,9 @@ from ultralytics import YOLO
 import os
 import cv2
 
-model = YOLO('model.pt') #model
+model = YOLO('your_model.pt') #model 
 
-image_folder = 'images'
+image_folder = 'images' #images path
 
 output_folder_txt = 'output_txt'
 os.makedirs(output_folder_txt, exist_ok=True)
